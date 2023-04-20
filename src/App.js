@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import ReactLogo from './components/ReactLogo/ReactLogo'
+import ReactBenifits from './components/ReactBenifits/ReactBenifits'
+import Button from './components/Button/button'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   <div class="app">
+   <ReactLogo />
+    <ReactBenifits />
+     <Button />
+   </div>
+
+  
+  )
 }
 
 export default App;
